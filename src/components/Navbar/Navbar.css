@@ -25,7 +25,7 @@
 .nav-links a {
     text-decoration: none;
     color: #1a1a1a;
-    font-size: 18px;
+    font-size: 16px;
 }
 
 .mobile-menu-icon {
@@ -33,7 +33,7 @@
     font-size: 24px;
     background: none;
     border: none;
-    color: white;
+    color: #1a1a1a;
     cursor: pointer;
 }
 
@@ -41,15 +41,24 @@
     display: flex;
     flex-direction: column;
     position: absolute;
-    top: 60px;
+    top: 80px;
     left: 0;
     width: 100%;
     background-color: #333;
     text-align: center;
+    list-style: none;
 }
 
 .nav-links-mobile li {
     margin: 10px 0;
+
+}
+
+.nav-links-mobile li a
+{
+    
+    text-decoration: none !important;
+    color:#fafafa;
 }
 
 /* Responsive Styles */
