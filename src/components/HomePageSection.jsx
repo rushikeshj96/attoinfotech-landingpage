@@ -27,6 +27,7 @@ function HomePageSection() {
                 <div className="col-md-6">
                     <div className="digital-experience-seciton">
                         <img src={digitalExp} alt='' style={{width:'100%'}}/>
+                        
                     </div>
                 </div>
             </div>
