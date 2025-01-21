@@ -1,0 +1,101 @@
+:root
+{
+    --primary-color: #066885;
+    --secondary-color:#69BA50;
+    --text-color: #5A7184;
+    --white : #fafafa;
+    --grey: #656F7A;
+}
+
+
+.section-padding
+{
+    padding: 150px 0;
+}
+
+.main-heading
+{
+    font-family: "Poppins", serif;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 72px;
+    letter-spacing: 0.2px;
+}
+
+.primary-heading
+{
+    font-family: "Poppins", serif;
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 60px;
+    letter-spacing: 0.2px;
+}
+
+.text-para-main
+{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    color:var(--text-color) ;
+
+}
+
+.primaryCSS
+{
+    color: var(--primary-color);
+}
+
+.primary-btn
+{
+    background-color: var(--secondary-color);
+    color: var(--white);
+    border: none;
+    padding: 10px 30px;
+    border-radius: 8px;
+}
+
+
+.text-desc
+{
+    font-family: 'Open Sans' sans-serif ;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    color: var(--grey);
+}
+
+/* info section start here  */
+
+.infosection
+{
+    background-color: #F7F7F7;
+    padding:35px 0;
+}
+
+.infohead
+{
+    font-family: 'Poppins' serif;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 48px;
+    color: var(--primary-color);
+}
+
+.infotext
+{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #333333;
+}
+
+.border-right
+{
+    border-right: 0.7px solid #C3C3C3;
+}
+
+.pl-60
+{
+    padding-left: 60px !important;
+}
