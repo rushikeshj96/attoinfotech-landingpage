@@ -1,0 +1,89 @@
+.card-slider-container {
+    width: 100%;
+    margin: 50px auto;
+    text-align: center;
+    position: relative;
+  }
+  
+  .card-slider {
+    display: flex;
+    overflow: hidden;
+    justify-content: space-between;
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  .card {
+    width: 23%; /* Ensure 4 cards fit in the row */
+    margin: 10px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card img {
+    width: 100%;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+  }
+  
+  .card .card-body {
+    text-align: left;
+  }
+  
+  /* Navigation Buttons */
+  .slider-controls {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    transform: translateY(-50%);
+  }
+  
+  .slider-controls .btn {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    font-size: 20px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .slider-controls .btn:hover {
+    background-color: #f0f0f0;
+    transform: scale(1.1);
+  }
+  
+  .prev-btn {
+    position: absolute;
+    left: -60px;
+  }
+  
+  .next-btn {
+    position: absolute;
+    right: -60px;
+  }
+  
+
+  .card-title
+  {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    margin-bottom: 15px;
+    color: var(--primary-color);
+  }
+
+  .card-text
+  {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+    letter-spacing: 0.2px;
+    color: var(--black);
+  }

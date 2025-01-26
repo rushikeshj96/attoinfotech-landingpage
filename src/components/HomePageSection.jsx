@@ -11,6 +11,12 @@ import uiux from "../assets/img/uiux.svg";
 import micro from "../assets/img/microtext.svg";
 import research from "../assets/img/research.svg";
 import social from "../assets/img/social-media.svg";
+import Slider from './Slider/Slider';
+import Customerfocused from '../assets/img/customer-focused.svg';
+import experties from '../assets/img/expertise.svg';
+import tech from "../assets/img/technology.svg";
+import dash from "../assets/img/dashboard_customize.svg";
+
 
 
 
@@ -218,6 +224,102 @@ design digital product. </p>
                                 </p>
                             </div>
                         </div>
+                </div>
+
+                
+            </div>
+        </div>
+    </section>
+
+    <section className="section-padding">
+        <div className="container">
+            <div className="row">
+            <h2 className="primary-heading primaryCSS text-center width-600">
+            Showcasing Our Best Work
+                </h2>
+                <h2 className="primary-heading primaryCSS text-center width-600">
+                and Impactful Results
+                </h2>
+            </div>
+
+            <div className="row">
+                <Slider/>
+            </div>
+        </div>
+    </section>
+
+    <section className="section-padding">
+        <div className="container">
+            <div className="row">
+            <h2 className="primary-heading primaryCSS text-center width-600">
+                 Why Choose
+                </h2>
+                <h2 className="primary-heading primaryCSS text-center width-600">
+                Tech Innovate Solutions?
+                </h2>
+            </div>
+
+            <div className="row mt-5">
+                <div className="col-md-3">
+                    <div className="digi-card solution-card">
+                        <div>
+                            <img src={Customerfocused} alt="" className="digi-icons" />
+                        </div>
+                        <div className="digi-details mt-2">
+                                <h4 className="card-heading">
+                                Customer-Centric Approach
+                                </h4>
+                                <p className="text-desc ">
+                                We craft strategies tailored to your business needs. </p>
+                            </div>
+                    </div>
+                </div>
+
+                <div className="col-md-3">
+                    <div className="digi-card solution-card">
+                        <div>
+                            <img src={experties} alt="" className="digi-icons" />
+                        </div>
+                        <div className="digi-details mt-2">
+                                <h4 className="card-heading">
+                                Expertise Across Industries
+                                </h4>
+                                <p className="text-desc ">
+                                We deliver solutions that work for every market.</p>
+                            </div>
+                    </div>
+                </div>
+
+
+                <div className="col-md-3">
+                    <div className="digi-card solution-card">
+                        <div>
+                            <img src={tech} alt="" className="digi-icons" />
+                        </div>
+                        <div className="digi-details mt-2">
+                                <h4 className="card-heading">
+                                Cutting-Edge Technologies
+                                </h4>
+                                <p className="text-desc ">
+                                We use the latest tools to drive innovation. </p>
+                            </div>
+                    </div>
+                </div>
+
+
+                <div className="col-md-3">
+                    <div className="digi-card solution-card">
+                        <div>
+                            <img src={dash} alt="" className="digi-icons" />
+                        </div>
+                        <div className="digi-details mt-2">
+                                <h4 className="card-heading">
+                                Data-Driven <br /> Strategies
+                                </h4>
+                                <p className="text-desc ">
+                                Analytics-backed decisions for maximum ROI. </p>
+                            </div>
+                    </div>
                 </div>
 
                 

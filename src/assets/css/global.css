@@ -5,12 +5,13 @@
     --text-color: #5A7184;
     --white : #fafafa;
     --grey: #656F7A;
+    --black:#333333;
 }
 
 
 .section-padding
 {
-    padding: 150px 0;
+    padding: 75px 0;
 }
 
 .main-heading
@@ -130,4 +131,14 @@
 .digi-details 
 {
     margin-left: 20px;
+}
+
+.solution-card
+{
+    display: block !important;
+}
+
+.w-75
+{
+    width:75px;
 }
